@@ -21,11 +21,8 @@ This creates an end-to-end image → text → speech pipeline that allows the us
 
 Button Press
      ↓
-     
 ESP32-CAM
-
-     ↓
-     
+     ↓ 
 Image Capture
      ↓
 Wi-Fi Transmission
@@ -39,7 +36,9 @@ Text-to-Speech
 Audio Transmission
      ↓
 Speaker Output
-Hardware
+
+_Hardware_
+
 ESP32-CAM
 Camera module
 Push button
@@ -47,7 +46,8 @@ Speaker
 I2S audio interface
 Supporting electronic components
 Wearable housing / mounting hardware
-Software
+
+_Software_
 
 The system combines embedded C++ and Python to handle image acquisition, communication, OCR, and audio generation.
 
