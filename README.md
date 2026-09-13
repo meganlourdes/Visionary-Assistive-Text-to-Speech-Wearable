@@ -39,12 +39,12 @@ Speaker Output
 
 _Hardware_
 
-ESP32-CAM
-Camera module
-Push button
-Speaker
-I2S audio interface
-Supporting electronic components
+ESP32-CAM, 
+Camera module, 
+Push button, 
+Speaker, 
+I2S audio interface, 
+Supporting electronic components, 
 Wearable housing / mounting hardware
 
 _Software_
