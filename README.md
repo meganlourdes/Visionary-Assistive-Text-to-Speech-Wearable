@@ -20,7 +20,6 @@ This creates an end-to-end image → text → speech pipeline that allows the us
 **System Architecture**
 
 Button Press
-
      ↓
      
 ESP32-CAM
