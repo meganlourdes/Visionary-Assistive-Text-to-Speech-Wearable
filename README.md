@@ -18,6 +18,7 @@ The text is played aloud through a speaker.
 This creates an end-to-end image → text → speech pipeline that allows the user to access printed information without needing to read it visually.
 
 **System Architecture**
+
 Button Press
      ↓
 ESP32-CAM
@@ -48,6 +49,7 @@ Software
 The system combines embedded C++ and Python to handle image acquisition, communication, OCR, and audio generation.
 
 **ESP32**
+
 Arduino / C++
 Camera control
 Push-button input
@@ -56,6 +58,7 @@ HTTP communication
 I2S audio playback
 
 **Computer**
+
 Python
 Image processing
 EasyOCR
@@ -81,6 +84,7 @@ The system achieved:
 These results showed that even when the OCR system did not reproduce the complete text exactly, it was often able to extract enough information to provide useful feedback to the user.
 
 **Design Considerations**
+
 Because Visionary is intended to function as a wearable assistive device, the design required balancing several factors:
 OCR accuracy
 Processing latency
@@ -93,6 +97,7 @@ Wearability and user comfort
 One major design decision was to perform OCR and text-to-speech processing on an external computer rather than directly on the ESP32-CAM. This provided significantly greater processing capability while allowing the wearable hardware to remain relatively lightweight.
 
 **Limitations**
+
 The current prototype has several limitations:
 OCR performance depends on image quality and camera positioning.
 Poor lighting, small text, and difficult viewing angles can reduce recognition accuracy.
@@ -102,6 +107,7 @@ The prototype would require further miniaturization and optimization for everyda
 Future Improvements
 
 **Future versions of Visionary could include:**
+
 Improved OCR preprocessing and accuracy
 More robust performance across lighting conditions
 Faster end-to-end processing
@@ -114,4 +120,5 @@ Greater independence from external computing hardware
 Moving processing from a laptop to a smartphone or embedded edge-computing platform would be an important step toward making Visionary a fully portable assistive device.
 
 **Acknowledgments**
+
 Developed as part of EE 180: Wearable Systems Design at Tufts University.
